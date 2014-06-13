@@ -11,5 +11,8 @@ return array(
   'DB_PORT'               =>  '3306',        // 端口
   'DB_PREFIX'             =>  't1_',    // 数据库表前缀
  
+  'TMPL_PARSE_STRING'     => array(     //模版常量
+    '__JS_PATH__' => __ROOT__.'/js',
+  ),
 	//'配置项'=>'配置值'
 );
