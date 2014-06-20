@@ -79,6 +79,10 @@ function qq_add_pal(f_open_id){
   <input type='button' id='btn1' value='login' onclick="javascript:fusion2.dialog.relogin();" />
 -->
 </block>
-<block name="right"></block>
+<block name="right">
+<!--函数使用，模板中使用URL生成函数-->
+<a href="{:U('Index/index', array('id'=>1), "", false)}"></a>
+
+</block>
 <block name="footer">
 </block>
