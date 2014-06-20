@@ -81,7 +81,11 @@ function qq_add_pal(f_open_id){
 </block>
 <block name="right">
 <!--函数使用，模板中使用URL生成函数-->
-<a href="{:U('Index/index', array('id'=>1), "", false)}"></a>
+<a href="{:U('Index/index', array('id'=>1), "", false)}">aaaaa</a>
+<br>
+<foreach name='user' item='v' key='k'>
+{$v.id}-{$v.name|echo=###}<br>
+</foreach>
 
 </block>
 <block name="footer">
